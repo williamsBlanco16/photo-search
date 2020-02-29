@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumbnail renderes an img tag with the correct src 1`] = `
+<img
+  src="https://test.com/test.jpg"
+  style={
+    Object {
+      "height": "300px",
+      "width": "300px",
+    }
+  }
+/>
+`;

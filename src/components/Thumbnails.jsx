@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Thumbail from './Thumbnail'
+
 const Thumbnails = ({photos}) => {
 
   return(
@@ -14,14 +16,10 @@ const Thumbnails = ({photos}) => {
               marginRight:'10px',
               marginBottom:'10px'
             }}>
-            <img 
+            <Thumbail
               src={photo.urls.small}
-              alt=""
-              style = {{
-                width:'300px',
-                height:'300px'
-              }}
-/>
+            />
+
           </div>
         ))
       }
